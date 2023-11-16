@@ -59,8 +59,7 @@ Above is the entire process of installing the .NET environment, see more at [dot
     sudo docker pull mcr.microsoft.com/azure-sql-edge:latest
     ```
 
-    > [!IMPORTANT]
-    >Install the correct `version of SQL Server` required, refer to [Microsoft SQL Server - Ubuntu based images](https://hub.docker.com/_/microsoft-mssql-server).
+    >**Important:** Install the correct `version of SQL Server` required, refer to [Microsoft SQL Server - Ubuntu based images](https://hub.docker.com/_/microsoft-mssql-server).
 
   * Continue with the command:
 
@@ -70,9 +69,9 @@ Above is the entire process of installing the .NET environment, see more at [dot
 
     You can change `Password.1` to another password you want.
 
-    `Note`: SQL Server's password requires the following:
-    * At least 8 characters.
-    * Has lowercase letters, uppercase letters, numbers, and special characters.
+    >**Note**: SQL Server's password requires the following:
+    >* At least 8 characters.
+    >* Has lowercase letters, uppercase letters, numbers, and special characters.
   * In case you want to change the password after creating SQL Server, use this command:
 
     ```bash
