@@ -50,6 +50,7 @@ Above is the entire process of installing the .NET environment, see more at [dot
 
   * Download and install [Docker](https://docs.docker.com/desktop/install/mac-install/).
   * In the `Preferences`, select `Resources`. Here, we need to increase the default allocated memory of the Docker engine to `6GB` for SQL Server to run properly. Although allocating 4GB will suffice, however, to obtain better performance, you should allocate as much memory as possible.
+
   ![Config Resources](SQLServer/MacOS/resources-docker.png)
 * **Step 2: Install SQL Server on Docker**
   * Install SQL Server by executing the following command:
@@ -80,6 +81,7 @@ Above is the entire process of installing the .NET environment, see more at [dot
     ```
 
   * You can `pause, restart, and delete` SQL Server right in the Docker interface.
+
   ![SQL Server container in Docker](SQLServer/MacOS/sql-in-docker.png)
 * **Step 3: Install `Azure Data Studio`**
   * Download and install [Azure Data Studio](https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio?tabs=win-install%2Cwin-user-install%2Credhat-install%2Cwindows-uninstall%2Credhat-uninstall)
@@ -96,15 +98,19 @@ installing `SQL Server` is simpler:
   * Install SQL Server:
 
     Select Basic:
+
     ![Select Basic](SQLServer/Windows/select-basic.png)
 
     Continue, click Accept:
+
     ![Click Accept](SQLServer/Windows/click-accept.png)
 
     Continue, click Install:
+
     ![Click Install](SQLServer/Windows/click-install.png)
 
     Installation is in progress:
+
     ![Installation is in progress](SQLServer/Windows/progress-install.png)
     After this process ends, SQL Server has been successfully installed.
 
@@ -113,6 +119,7 @@ installing `SQL Server` is simpler:
   * Download [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16&viewFallbackFrom=sql-server%02ver15&_ga=2.163492156.1498026359.1700104972-2130380837.1700104970)
   * Install SQL Server Management Studio (SSMS):
   * Connect to database:
+
     ![Connect to database](SQLServer/Windows/connect-sqlserver.png)
 
 Above is the entire SQL Server installation process, see more at [SQL Server installation guide](https://learn.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server?view=sql-server-ver16).
