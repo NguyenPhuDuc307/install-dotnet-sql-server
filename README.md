@@ -1,4 +1,4 @@
-# Install .NET and SQL Server environment in Visual Studio Code
+# Part 1: Install .NET and SQL Server environment in Visual Studio Code
 
 >Instructions for installing the .NET application development environment on Visual Studio Code and using Microsoft SQL Server database. SQL Server will be installed running on Docker. You can use this guide to do it on **Windows**, **MacOS**.
 
